@@ -1,0 +1,47 @@
+/* Niagara PumpkinGuy Luxury Christmas 2026 — isolated visual layer; no scripts or booking logic modified */
+.npg-home{--npg-forest:#102f27;--npg-burgundy:#722e3a;--npg-champagne:#c4a56c;--npg-ivory:#faf7f0;color:#26372e;background:#faf7f0}
+.npg-home .npg-offseason,.npg-home .npg-fall-policy{display:none!important}
+.npg-home .npg-hero{min-height:min(88vh,850px);background:#12291f}
+.npg-home .npg-hero__media img{object-fit:cover;object-position:center 49%;filter:brightness(.66) saturate(.8)}
+.npg-home .npg-hero__overlay{background:linear-gradient(90deg,rgba(7,25,19,.87),rgba(9,25,20,.38) 75%)}
+.npg-home .npg-hero__content-inner{max-width:750px}
+.npg-home .npg-hero .npg-title{font-family:Georgia,'Times New Roman',serif;font-weight:400;letter-spacing:-.035em;line-height:1.08;font-size:clamp(3.2rem,6.4vw,6.5rem)}
+.npg-home .npg-kicker{text-transform:uppercase;letter-spacing:.17em;font-size:.78rem;font-weight:650}
+.npg-home .npg-hero__lede{font-size:clamp(1rem,1.8vw,1.3rem);line-height:1.75;max-width:600px}
+.npg-home .npg-btn{border-radius:3px;text-transform:uppercase;letter-spacing:.09em;font-weight:650;font-size:.78rem;transition:transform .2s,background .2s}
+.npg-home .npg-btn:hover{transform:translateY(-2px)}
+.npg-home .npg-btn--primary{background:#b99b67;color:#132c22;border-color:#b99b67}
+.npg-home .npg-trust{background:#12342b;color:#f6f0e3}
+.npg-home .npg-trust__item strong{color:#fff8ea}
+.npg-home .npg-trust__icon{color:#d4b77e}
+.npg-home .npg-section{padding-block:clamp(56px,7vw,112px)}
+.npg-home .npg-section--white{background:#fffdf8}
+.npg-home .npg-section__head{max-width:860px;margin-inline:auto;text-align:center;margin-bottom:44px}
+.npg-home .npg-title--sm,.npg-home .npg-editorial h2{font-family:Georgia,'Times New Roman',serif;font-weight:400;letter-spacing:-.03em;font-size:clamp(2.3rem,4vw,4.3rem);line-height:1.15}
+.npg-home .npg-card{background:#fff;border:1px solid #e7dfd1;box-shadow:0 16px 45px rgba(24,38,28,.07);border-radius:2px;overflow:hidden}
+.npg-home .npg-card__image{overflow:hidden}
+.npg-home .npg-card__image img{transition:transform .5s ease}
+.npg-home .npg-card:hover .npg-card__image img{transform:scale(1.035)}
+.npg-home .npg-card__name{font-family:Georgia,'Times New Roman',serif;font-size:1.6rem}
+.npg-home .npg-card--featured{border:1px solid #b99b67}
+.npg-home .npg-card__badge{background:#722e3a;color:white}
+.npg-home .npg-price{color:#163f2b}
+.npg-home .npg-editorial{background:#173a2e;color:#f9f4e9;padding:clamp(65px,8vw,120px) 0}
+.npg-home .npg-editorial__inner{display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,7vw,120px);align-items:center}
+.npg-home .npg-editorial h2{color:#f9f4e9;margin:10px 0}
+.npg-home .npg-editorial p{line-height:1.9;color:#e8e0d3}
+.npg-home .npg-editorial .npg-btn{margin-top:16px;border-color:#c4a56c;color:#f9f4e9}
+.npg-home .npg-cta{background:#102f27;color:#fff8e8}
+.npg-home .npg-cta h2{font-family:Georgia,'Times New Roman',serif;font-weight:400}
+@media(max-width:749px){.npg-home .npg-hero{min-height:690px}.npg-home .npg-hero__overlay{background:linear-gradient(0deg,rgba(8,28,21,.9),rgba(8,28,21,.25))}.npg-home .npg-editorial__inner{grid-template-columns:1fr}.npg-home .npg-hero__media img{object-position:53% center}}
+
+/* Responsive Christmas hero artwork: visual only, no booking or cart logic changes */
+.npg-home .npg-hero__media picture,.npg-home .npg-hero__media picture img{display:block;width:100%;height:100%}
+.npg-home .npg-hero__media picture img{object-fit:cover;object-position:center center;filter:brightness(.83) saturate(.95)}
+.npg-home .npg-hero__overlay{background:linear-gradient(90deg,rgba(7,25,19,.83) 0%,rgba(7,25,19,.52) 35%,rgba(7,25,19,.05) 80%)}
+@media(max-width:749px){
+ .npg-home .npg-hero{min-height:680px;min-height:85svh}
+ .npg-home .npg-hero__media picture img{object-position:center center}
+ .npg-home .npg-hero__overlay{background:linear-gradient(0deg,rgba(7,25,19,.92) 0%,rgba(7,25,19,.62) 37%,rgba(7,25,19,.04) 85%)}
+ .npg-home .npg-hero .npg-title{font-size:clamp(2.35rem,10vw,3.6rem)}
+}
